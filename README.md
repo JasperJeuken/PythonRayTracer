@@ -1,6 +1,8 @@
 # Pure Python Ray Tracer
 _1000 x 1000 [Cornell box](https://en.wikipedia.org/wiki/Cornell_box) rendered with 1500 samples per pixel_
 <img src="https://i.imgur.com/XcFBDMq.png" alt="1000x1000 Cornell box render">
+<br />
+<br />
 
 ## Features
 * **Monte Carlo Ray Tracing**
@@ -20,9 +22,12 @@ _1000 x 1000 [Cornell box](https://en.wikipedia.org/wiki/Cornell_box) rendered w
   * Change position and target
   * Depth of field using aperture and focus distance
   * Field of view and aspect ratio
+<br />
   
 ## Installation
 Uses only helper functions from standard Python libraries, except for loading images to the image texture with the [Python Imaging Library](https://pypi.org/project/Pillow/).
+<br />
+<br />
 
 ## Usage
 Run from command prompt:
@@ -40,10 +45,14 @@ Can also be compiled with [PyPy](https://www.pypy.org/) using Just-in-Time compi
 C:path_to_folder> pypy3 main.py
 ```
 In `main.py` the camera and scene settings can be adjusted. `scene.py` contains several pre-made scenes, but more can easily be added by copying one of these functions.
-  
+<br />
+<br />
+
 ## Attribution
 Created using ["Ray Tracing in One Weekend Series"](https://raytracing.github.io/) (v3.2.0) for C++ by Peter Shirley (Steve Hollasch, Trevor David Black).<br />
 With snippets from [Arun Ravindran ArunRocks](https://www.youtube.com/channel/UCj7bqdW_FLpzUIzlSbXLp_A) series _Puray_.
+<br />
+<br />
 
 ## Gallery
 _2000 x 864 render showing the fuzziness parameter from 0 to 1 (left to right)_

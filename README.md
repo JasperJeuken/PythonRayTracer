@@ -1,9 +1,6 @@
 # Pure Python Ray Tracer
-
-<img src="https://i.imgur.com/XcFBDMq.png" alt="1000x1000 Cornell box render" width="50%" height="50%">
-
 _1000 x 1000 [Cornell box](https://en.wikipedia.org/wiki/Cornell_box) rendered with 1500 samples per pixel_
-
+<img src="https://i.imgur.com/XcFBDMq.png" alt="1000x1000 Cornell box render">
 
 ## Features
 * **Monte Carlo Ray Tracing**
@@ -46,6 +43,18 @@ In `main.py` the camera and scene settings can be adjusted. `scene.py` contains 
   
 ## Attribution
 Created using ["Ray Tracing in One Weekend Series"](https://raytracing.github.io/) (v3.2.0) for C++ by Peter Shirley (Steve Hollasch, Trevor David Black).<br />
-With snippets of code from [Arun Ravindran ArunRocks](https://www.youtube.com/channel/UCj7bqdW_FLpzUIzlSbXLp_A) series _Puray_.
+With snippets from [Arun Ravindran ArunRocks](https://www.youtube.com/channel/UCj7bqdW_FLpzUIzlSbXLp_A) series _Puray_.
 
 ## Gallery
+_2000 x 864 render showing the fuzziness parameter from 0 to 1 (left to right)_
+<img src="https://i.imgur.com/M7ObCxr.png" alt="2000 x 864 render showing the fuzziness of metal">
+
+_1600 x 1080 render showing three materials: metal, diffusive and dielectric_
+<img src="https://i.imgur.com/Gjbk3fz.png" alt="1600 x 1080 render of three different materials">
+
+_1000 x 1000 render showing of a sphere with an Earth image texture applied_
+<img src="https://i.imgur.com/MiuaPiX.png" alt="1000 x 1000 render showing an image-textured sphere">
+
+
+_1000 x 1000 render showing a marble-like material generated with Perlin noise_
+<img src="https://i.imgur.com/ANXpQJC.png" alt="1000 x 1000 render showing a marble-like material generated with Perlin noise">

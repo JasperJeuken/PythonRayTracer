@@ -1,4 +1,6 @@
 # Pure Python Ray Tracer
+*Note: I built a similar engine in C++ with more functionality and vastly better performance [here](https://github.com/JasperJeuken/CppRayTracer).*
+
 _1000 x 1000 [Cornell box](https://en.wikipedia.org/wiki/Cornell_box) rendered with 1500 samples per pixel_
 <img src="https://i.imgur.com/XcFBDMq.png" alt="1000x1000 Cornell box render">
 <br />
